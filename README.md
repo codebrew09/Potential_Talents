@@ -30,10 +30,10 @@ Potential_Talents/
 ├── project3_hr_staffing_conventional_vectorization.py   # Traditional NLP ranking
 └── project3_hr_staffing_llm.py                         # Advanced LLM-based ranking
 
-🧾 project3_hr_staffing_conventional_vectorization.py
+- 🧾 project3_hr_staffing_conventional_vectorization.py
 Uses classical NLP vectorization (e.g., TF-IDF) to convert profiles and queries into vectors, then ranks candidates by similarity.
 
-🤖 project3_hr_staffing_llm.py
+- 🤖 project3_hr_staffing_llm.py
 Leverages a Large Language Model to understand meaning and context — offering more nuanced, semantically aligned rankings.
 
 ---
