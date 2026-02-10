@@ -27,8 +27,8 @@ The goal? Help HR teams identify top matches quickly and effectively — moving 
 📁 Repository Structure
 
 Potential_Talents/
-├── project3_hr_staffing_conventional_vectorization.py   # Traditional NLP ranking
-└── project3_hr_staffing_llm.py                         # Advanced LLM-based ranking
+1. project3_hr_staffing_conventional_vectorization.py   # Traditional NLP ranking
+2. project3_hr_staffing_llm.py                         # Advanced LLM-based ranking
 
 - 🧾 project3_hr_staffing_conventional_vectorization.py
 Uses classical NLP vectorization (e.g., TF-IDF) to convert profiles and queries into vectors, then ranks candidates by similarity.
@@ -39,22 +39,23 @@ Leverages a Large Language Model to understand meaning and context — offering 
 ---
 
 🚀 Key Features
+
 ✔ Conventional Vectorization Pipeline
 
-Data Loading
-Import candidate profiles and prepare them for analysis.
+1. Data Loading
+- Import candidate profiles and prepare them for analysis.
 
-Text Preprocessing
-Clean and tokenize the text data.
+2. Text Preprocessing
+- Clean and tokenize the text data.
 
-Vectorization
-Use TF-IDF to transform text into numerical vectors.
+3. Vectorization
+- Use TF-IDF to transform text into numerical vectors.
 
-Similarity Scoring
-Compute cosine similarity between recruiter search input and candidate vectors.
+4. Similarity Scoring
+- Compute cosine similarity between recruiter search input and candidate vectors.
 
-Ranking Output
-Sort candidates from most to least relevant.
+5. Ranking Output
+- Sort candidates from most to least relevant.
 
 🔹 Best for baseline comparison and lightweight deployments.
 
@@ -62,17 +63,17 @@ Sort candidates from most to least relevant.
 
 ✔ LLM-Based Ranking Pipeline
 
-Semantic Understanding
-Feed both recruiter search and profile text into a language model.
+1. Semantic Understanding
+- Feed both recruiter search and profile text into a language model.
 
-Embedding Generation
-Generate deep semantic embeddings that capture context and meaning.
+2. Embedding Generation
+- Generate deep semantic embeddings that capture context and meaning.
 
-Relevance Scoring
-Use distance/similarity measures on embeddings for ranking.
+3. Relevance Scoring
+- Use distance/similarity measures on embeddings for ranking.
 
-Output Top Matches
-Produce ranked results with more intelligent insight into candidate alignment with recruiter needs.
+4. Output Top Matches
+- Produce ranked results with more intelligent insight into candidate alignment with recruiter needs.
 
 🔹 Ideal for more accurate matches where meaning matters beyond keyword overlap.
 
