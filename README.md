@@ -12,13 +12,13 @@ This work was completed as part of an industry project in Apziva, where real-wor
 
 Potential Talents is a Python-based candidate ranking system that:
 
-Reads candidate profiles and recruiter search terms.
+- Reads candidate profiles and recruiter search terms.
 
-Processes and scores candidates using two methods:
+- Processes and scores candidates using two methods:
 
-Conventional Vectorization (TF-IDF / Cosine similarity)
+- Conventional Vectorization (TF-IDF / Cosine similarity)
 
-LLM-enhanced Semantic Ranking
+- LLM-enhanced Semantic Ranking  
 
 The goal? Help HR teams identify top matches quickly and effectively — moving beyond keyword matching into true semantic relevance.
 
@@ -42,20 +42,15 @@ Leverages a Large Language Model to understand meaning and context — offering 
 
 ✔ Conventional Vectorization Pipeline
 
-1. Data Loading
-- Import candidate profiles and prepare them for analysis.
+1. Data Loading - Import candidate profiles and prepare them for analysis.
 
-2. Text Preprocessing
-- Clean and tokenize the text data.
+2. Text Preprocessing - Clean and tokenize the text data.
 
-3. Vectorization
-- Use TF-IDF to transform text into numerical vectors.
+3. Vectorization - Use TF-IDF to transform text into numerical vectors.
 
-4. Similarity Scoring
-- Compute cosine similarity between recruiter search input and candidate vectors.
+4. Similarity Scoring - Compute cosine similarity between recruiter search input and candidate vectors.
 
-5. Ranking Output
-- Sort candidates from most to least relevant.
+5. Ranking Output - Sort candidates from most to least relevant.
 
 🔹 Best for baseline comparison and lightweight deployments.
 
@@ -63,17 +58,13 @@ Leverages a Large Language Model to understand meaning and context — offering 
 
 ✔ LLM-Based Ranking Pipeline
 
-1. Semantic Understanding
-- Feed both recruiter search and profile text into a language model.
+1. Semantic Understanding - Feed both recruiter search and profile text into a language model.
 
-2. Embedding Generation
-- Generate deep semantic embeddings that capture context and meaning.
+2. Embedding Generation - Generate deep semantic embeddings that capture context and meaning.
 
-3. Relevance Scoring
-- Use distance/similarity measures on embeddings for ranking.
+3. Relevance Scoring - Use distance/similarity measures on embeddings for ranking.
 
-4. Output Top Matches
-- Produce ranked results with more intelligent insight into candidate alignment with recruiter needs.
+4. Output Top Matches - Produce ranked results with more intelligent insight into candidate alignment with recruiter needs.
 
 🔹 Ideal for more accurate matches where meaning matters beyond keyword overlap.
 
@@ -105,11 +96,11 @@ After running both models on sample HR search scenarios:
 
 By exploring this project you’ll understand:
 
-How to compare classic NLP and modern LLM techniques.
+- How to compare classic NLP and modern LLM techniques.
 
-How semantic embeddings improve information retrieval tasks.
+- How semantic embeddings improve information retrieval tasks.
 
-How candidate ranking can be automated for HR workflows.
+- How candidate ranking can be automated for HR workflows.
 
 ---
 
@@ -117,11 +108,11 @@ How candidate ranking can be automated for HR workflows.
 
 Python
 
-Natural Language Processing (NLP)
+- Natural Language Processing (NLP)
 
-Machine Learning
+- Machine Learning
 
-LLMs for Semantic Ranking
+- LLMs for Semantic Ranking
 
 ---
 
